@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "target": "es5",
+    "lib": ["es6", "dom"],
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "isolatedModules": false,
+    "sourceMap": true,
+    "baseUrl": "./src",
+    "paths": {
+      "components": ["components"],
+      "state": ["state"],
+      "logic": ["logic"]
+    }
+  }
+}

@@ -1,0 +1,107 @@
+.building {
+  display: flex;
+  flex-direction: row;
+}
+
+.label {
+  background-color: darkgray;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: bold;
+  border-right: 1px solid black;
+  border-bottom-style: 1px solid black;
+}
+
+.floorNumbers {
+  width: 31px;
+  display: flex;
+  flex-direction: column;
+}
+
+.floorNumber {
+  background-color: lightgrey;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.elevator {
+  display: flex;
+  flex-direction: column;
+  width: 31px;
+}
+
+.elevatorFloor {
+  background-color: whitesmoke;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.elevatorPass {
+  background-color: yellowgreen;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+}
+
+.passenger {
+  font-size: 10px;
+  padding: 2px;
+  line-height: 10px;
+}
+
+.floors {
+  display: flex;
+  flex-direction: column;
+}
+
+.floor {
+  background-color: white;
+  /* width: 30px; */
+  height: 30px;
+  line-height: 30px;
+  text-align: left;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.waitingPassenger {
+  margin-right: 5px;
+}
+
+.addPassenger {
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 5;
+}
+
+.addPassenger:hover {
+  font-weight: bold;
+}
+
+.panel {
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  right: -30px;
+  background-color: cornflowerblue;
+  width: 30px;
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.panel div {
+  cursor: pointer;
+}
